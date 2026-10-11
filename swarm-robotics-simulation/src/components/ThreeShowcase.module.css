@@ -1,0 +1,10 @@
+.viewer{position:absolute;inset:0;overflow:hidden;background:#030509;color:#d9e2ee;font:10px var(--mono)}
+.viewer canvas{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none}
+.toolbar{position:absolute;z-index:2;top:12px;left:12px;display:flex;flex-wrap:wrap;gap:5px;max-width:calc(100% - 24px)}
+.toolbar button{border:1px solid rgba(132,150,174,.3);border-radius:3px;background:rgba(8,12,18,.8);color:#bfcadd;padding:6px 8px;font:9px var(--mono);cursor:pointer;backdrop-filter:blur(8px)}
+.toolbar button:hover,.toolbar .active{color:#fff2cf;border-color:#b69a67;background:rgba(44,39,31,.76)}
+.toolbar kbd{font:8px var(--mono);opacity:.6;margin-left:4px}
+.hud{position:absolute;right:12px;bottom:12px;padding:8px 10px;border:1px solid rgba(126,145,169,.25);background:rgba(5,8,13,.8);color:#fff2cf;font:10px var(--mono);letter-spacing:.02em;backdrop-filter:blur(8px)}
+.topLabel{position:absolute;left:12px;bottom:12px;padding:7px 9px;border:1px solid rgba(126,145,169,.25);background:rgba(5,8,13,.8);color:#becadd;font:9px var(--mono)}
+.error{position:absolute;inset:auto 12px 58px;padding:10px;background:rgba(50,20,20,.94);color:#ffaaa0;border:1px solid #8f493f;font:11px/1.4 var(--mono)}
+.telemetry{position:absolute;z-index:2;left:12px;bottom:12px;padding:8px 10px;border:1px solid rgba(126,145,169,.3);background:rgba(5,8,13,.86);color:#d8e1ed;font:9px/1.65 var(--mono);letter-spacing:.02em;backdrop-filter:blur(8px)}
